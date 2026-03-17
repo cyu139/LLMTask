@@ -91,7 +91,7 @@ Trace:
 2. (Fact 2)
 3. (Rule) -> (Conclusion)
 ...
-Conclusion: (True or False) - The answer is [Final Answer]
+Conclusion: (True or False)
 """
 
 trace_prompt = PromptTemplate.from_template(trace_template)
